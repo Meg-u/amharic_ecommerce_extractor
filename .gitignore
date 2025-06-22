@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.env
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/
+
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs or temp files
+*.log
+*.tmp
