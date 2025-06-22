@@ -25,9 +25,30 @@ data/
 
 # Virtual environments
 env/
-venv/
-.venv/
-
+venv
+.env
 # Logs or temp files
 *.log
 *.tmp
+*.session
+.env
+env/
+.venv/
+data/*/media/
+*.csv
+*.log
+*.session
+
+# Ignore media and big files
+data/*/media/
+data/*/messages.csv
+data/*/messages_cleaned.csv
+
+# Secrets and system
+.env
+__pycache__/
+.env/
+.vscode/
+*.ipynb_checkpoints/
+*.log
+venv/
