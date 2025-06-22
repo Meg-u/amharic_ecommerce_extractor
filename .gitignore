@@ -1,12 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*.ipynb_checkpoints
-*.pyo
-*.pyd
-*.egg
-*.egg-info/
 .env
+__pycache__/
+.vscode/
+*.ipynb_checkpoints/
+*.log
+venv/
 
 # VS Code
 .vscode/
@@ -25,30 +22,4 @@ data/
 
 # Virtual environments
 env/
-venv
 .env
-# Logs or temp files
-*.log
-*.tmp
-*.session
-.env
-env/
-.venv/
-data/*/media/
-*.csv
-*.log
-*.session
-
-# Ignore media and big files
-data/*/media/
-data/*/messages.csv
-data/*/messages_cleaned.csv
-
-# Secrets and system
-.env
-__pycache__/
-.env/
-.vscode/
-*.ipynb_checkpoints/
-*.log
-venv/
