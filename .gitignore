@@ -23,3 +23,4 @@ data/
 # Virtual environments
 env/
 .env
+*.session
